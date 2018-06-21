@@ -1,0 +1,20 @@
+// ==UserScript==
+// @name         TFS Web Portal - Load Dark Theme CSS
+// @namespace    http://tampermonkey.net/
+// @version      18.06.21
+// @description  Loads a remote CSS file to apply a dark theme to the TFS web portal
+// @author       David Christensen
+// @match        http://{INSERT ON-PREMISE TFS PORTAL HOST HERE}/*
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    "use strict";
+
+    var linkElement = document.createElement("link");
+    linkElement.rel = "stylesheet";
+    linkElement.type = "text/css";
+    linkElement.href = "https://rawgit.com/Hogbyte/TFS-Dark-Theme/master/Style.css";
+
+    document.head.appendChild(linkElement);
+})();
