@@ -11,10 +11,14 @@
 (function() {
     "use strict";
 
+    /* Choose a single CSS file */
+    //var CSS_FILE = "DaedalusIcarusHelios_TfsDark";
+    var CSS_FILE = "ZachPosten_VstsDark";
+
     var linkElement = document.createElement("link");
     linkElement.rel = "stylesheet";
     linkElement.type = "text/css";
-    linkElement.href = "https://cdn.rawgit.com/Hogbyte/TFS-Dark-Theme/master/Style.css";
+    linkElement.href = "https://cdn.rawgit.com/Hogbyte/TFS-Dark-Theme/master/Styles/" + CSS_FILE + ".css";
 
     document.head.appendChild(linkElement);
 })();
