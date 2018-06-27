@@ -1,6 +1,6 @@
 # TFS-Dark-Theme
 
-CSS "borrowed" from various styles from https://userstyles.org/
+CSS "borrowed" from various styles from https://userstyles.org/\
 (see individual CSS files under the Styles folder for the source credit)
 
 Instructions:
