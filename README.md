@@ -1,6 +1,7 @@
 # TFS-Dark-Theme
 
-CSS "borrowed" from: https://userstyles.org/styles/134244/vsts-dark
+CSS "borrowed" from various styles from https://userstyles.org/
+(see individual CSS files under the Styles folder for the source credit)
 
 Instructions:
 1. Install the TamperMonkey extension in your browser of choice.
