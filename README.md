@@ -1,4 +1,4 @@
-# TFS-Dark-Theme
+# TFS Dark Theme
 
 CSS "borrowed" from various styles from https://userstyles.org/<br/>
 (see individual CSS files under the Styles folder for the source credit)
