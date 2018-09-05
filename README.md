@@ -1,3 +1,5 @@
+___NOTE: This repo is no longer maintained. The functionality has been moved to a repo dedicated to Visual Studio Team Services user scripts: https://github.com/Hogbyte/VSTS-User-Scripts___
+
 # TFS-Dark-Theme
 
 CSS "borrowed" from various styles from https://userstyles.org/<br/>
